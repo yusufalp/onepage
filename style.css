@@ -34,7 +34,7 @@ h1 {
 
 h2 {
   border-top: 3px solid #e9d985;
-  width: 65%;
+  width: 75%;
 }
 
 h2,
@@ -57,13 +57,16 @@ header h1 {
 }
 
 header p {
-  font-size: 24px;
+  font-size: 18px;
   margin: 0;
   width: 80%;
 }
 
 header p:nth-child(4) {
   margin-top: 12px;
+}
+#about {
+  margin-bottom: 160px;
 }
 
 #projects {
@@ -82,7 +85,7 @@ header p:nth-child(4) {
 }
 
 section {
-  background-color: #98c1d9;
+  background-color: #E9D985;
   border-radius: 10px;
   box-shadow: 5px 5px 15px #e6e8e6;
   margin: 24px auto;
@@ -145,13 +148,11 @@ textarea {
 
 .social {
   margin-top: 10%;
-  padding-top: 10%;
-  text-align: center;
 }
 
 .social a {
-  font-size: 18px;
-  margin: 0 24px;
+  font-size: 36px;
+  margin-right: 48px;
 }
 
 .copy {
@@ -160,7 +161,7 @@ textarea {
 
 @media all and (min-width: 568px) {
   h2 {
-    width: 35%;
+    width: 40%;
   }
 
   nav a {
@@ -177,7 +178,7 @@ textarea {
   }
 
   section:nth-child(2n) {
-    background-color: #98c1d9;
+    background-color: #E9D985;
   }
 
   label,
@@ -211,6 +212,6 @@ textarea {
   }
 
   header p {
-    font-size: 36px;
+    font-size: 24px;
   }
 }

@@ -23,8 +23,8 @@ nav {
 }
 
 nav a {
-  font-size: 14px;
-  margin-left: 8px;
+  font-size: 18px;
+  margin-left: 6px;
 }
 
 h1 {
@@ -151,7 +151,7 @@ textarea {
 }
 
 .social a {
-  font-size: 36px;
+  font-size: 18px;
   margin-right: 48px;
 }
 
@@ -213,5 +213,9 @@ textarea {
 
   header p {
     font-size: 24px;
+  }
+
+  .social a {
+    font-size: 36px;
   }
 }

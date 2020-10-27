@@ -42,6 +42,10 @@ h3 {
   font-size: 36px;
 }
 
+h4 {
+  font-size: 28px;
+}
+
 section h2,
 section h3 {
   font-size: 15px;
@@ -74,9 +78,9 @@ header p:nth-child(4) {
 }
 
 #projects section img {
-  width: 75%;
   height: 50%;
   max-height: 180px;
+  width: 100%;
 }
 
 #projects section a {
@@ -108,6 +112,10 @@ section:nth-child(2n) {
   justify-content: space-evenly;
 }
 
+#contact h2{
+  margin: 0;
+}
+
 footer .message {
   border-radius: 10px;
   background-color: #e9d985;
@@ -128,7 +136,7 @@ form button {
   font-size: 18px;
   padding: 12px;
   margin: auto;
-  width: 40%;
+  width: 250px;
 }
 
 label,
@@ -147,12 +155,12 @@ textarea {
 }
 
 .social {
-  margin-top: 10%;
+  margin-bottom: 8%;
 }
 
 .social a {
   font-size: 18px;
-  margin-right: 48px;
+  margin-right: 40px;
 }
 
 .copy {
@@ -216,6 +224,6 @@ textarea {
   }
 
   .social a {
-    font-size: 36px;
+    font-size: 32px;
   }
 }

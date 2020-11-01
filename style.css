@@ -2,7 +2,6 @@ body {
   background-color: #f2f7f2;
   color: #222e50;
   font-family: "Quicksand", sans-serif;
-  font-size: 1.25rem;
   margin: 0 5%;
 }
 
@@ -23,13 +22,13 @@ nav {
 }
 
 nav a {
-  font-size: 18px;
+  font-size: 14px;
   margin-left: 6px;
 }
 
 h1 {
   font-family: "Martel", serif;
-  font-size: 48px;
+  font-size: 36px;
 }
 
 h2 {
@@ -39,16 +38,16 @@ h2 {
 
 h2,
 h3 {
-  font-size: 36px;
+  font-size: 30px;
 }
 
 h4 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 section h2,
 section h3 {
-  font-size: 15px;
+  font-size: 24px;
 }
 
 header {
@@ -61,7 +60,6 @@ header h1 {
 }
 
 header p {
-  font-size: 18px;
   margin: 0;
   width: 80%;
 }
@@ -69,6 +67,7 @@ header p {
 header p:nth-child(4) {
   margin-top: 12px;
 }
+
 #about {
   margin-bottom: 160px;
 }
@@ -85,13 +84,13 @@ header p:nth-child(4) {
 
 #projects section a {
   border-bottom: 2px solid #ed217c;
-  color: #ed217c;
+  color: #222e50;
 }
 
 section {
-  background-color: #E9D985;
+  background-color: #e9d985;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px #9CAFB7;
+  box-shadow: 5px 5px 15px #9cafb7;
   margin: 24px auto;
   padding: 12px 12px 24px;
   width: 75%;
@@ -101,10 +100,6 @@ section:hover {
   transform: scale(1.05);
 }
 
-section:nth-child(2n) {
-  background-color: #98c1d9;
-}
-
 .group {
   display: flex;
   flex-direction: column;
@@ -112,7 +107,7 @@ section:nth-child(2n) {
   justify-content: space-evenly;
 }
 
-#contact h2{
+#contact h2 {
   margin: 0;
 }
 
@@ -159,7 +154,6 @@ textarea {
 }
 
 .social a {
-  font-size: 18px;
   margin-right: 40px;
 }
 
@@ -167,13 +161,36 @@ textarea {
   text-align: center;
 }
 
+@media all and (min-width: 372px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  header p {
+    font-size: 18px;
+  }
+
+  .social a {
+    font-size: 18px;
+  }
+}
+
 @media all and (min-width: 568px) {
+  h1 {
+    font-size: 60px;
+  }
+
   h2 {
+    font-size: 36px;
     width: 40%;
   }
 
+  header p {
+    font-size: 24px;
+  }
+
   nav a {
-    font-size: 36px;
+    font-size: 24px;
     margin-left: 24px;
   }
 
@@ -183,10 +200,6 @@ textarea {
 
   .group > section {
     flex: 0 40%;
-  }
-
-  section:nth-child(2n) {
-    background-color: #E9D985;
   }
 
   label,
@@ -214,13 +227,17 @@ textarea {
     font-size: 60px;
   }
 
+  h4 {
+    font-size: 32px;
+  }
+
   section h2,
   section h3 {
     font-size: 30px;
   }
 
   header p {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .social a {

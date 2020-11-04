@@ -22,6 +22,7 @@ nav {
 }
 
 nav a {
+  display: block;
   font-size: 14px;
   margin-left: 6px;
 }
@@ -77,7 +78,7 @@ header p:nth-child(4) {
 }
 
 #projects section img {
-  height: 50%;
+  height: 36%;
   max-height: 240px;
   width: 100%;
 }
@@ -131,7 +132,8 @@ form button {
   font-size: 18px;
   padding: 12px;
   margin: auto;
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
 }
 
 label,
@@ -141,7 +143,7 @@ textarea {
   border-radius: 10px;
   display: block;
   padding: 6px 2px;
-  width: 100%;
+  width: 97.5%;
 }
 
 input,
@@ -154,11 +156,21 @@ textarea {
 }
 
 .social a {
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 .copy {
   text-align: center;
+}
+
+@media all and (min-width: 286px) {
+  nav a {
+    display: inline;
+  }
+
+  .social a {
+    margin-right: 40px;
+  }
 }
 
 @media all and (min-width: 372px) {
@@ -173,9 +185,12 @@ textarea {
   .social a {
     font-size: 18px;
   }
+  nav a {
+    font-size: 18px;
+  }
 }
 
-@media all and (min-width: 568px) {
+@media all and (min-width: 680px) {
   h1 {
     font-size: 60px;
   }
@@ -190,12 +205,12 @@ textarea {
   }
 
   nav a {
-    font-size: 24px;
-    margin-left: 24px;
+    font-size: 22px;
+    margin-left: 22px;
   }
 
   section {
-    padding: 6px 12px 66px;
+    padding: 6px 12px 54px;
   }
 
   .group {
@@ -220,6 +235,10 @@ textarea {
 
   nav {
     right: 10%;
+  }
+
+  nav a {
+    font-size: 28px;
   }
 
   h1 {
@@ -252,5 +271,9 @@ textarea {
 
   .social a {
     font-size: 32px;
+  }
+
+  #projects section img {
+    height: 50%;
   }
 }

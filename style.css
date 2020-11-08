@@ -78,9 +78,13 @@ header p:nth-child(4) {
 }
 
 #projects section img {
+  display: block;
   height: 36%;
   max-height: 240px;
   width: 100%;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #projects section a {
@@ -95,6 +99,7 @@ section {
   margin: 18px auto;
   padding: 6px 12px 36px;
   width: 75%;
+  max-width: 720px;
 }
 
 section:hover {

@@ -19,3 +19,7 @@ Find My Activity designed for work from home parents. When kids are done with sc
 [Live](https://find-my-activity.vercel.app/) | [Front-End](https://github.com/yusufalp/find-my-activity) | [Back-End](https://github.com/yusufalp/find-my-activity-API)
 
 Technologies used: *React, Node, Express, PostgreSQL, CSS*
+
+## About
+
+Life-long educator and learner who is passionate about technology and education that makes our world better. I bring a unique perspective and skills to web development thanks to my experience in the education industry. I am looking for an opportunity that will allow me to make a meaningful contribution to the mix of my skills in development and education.

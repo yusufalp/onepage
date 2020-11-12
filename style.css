@@ -124,6 +124,7 @@ footer .message {
   font-size: 18px;
   padding: 12px;
   margin-bottom: 36px;
+  max-width: 750px;
 }
 
 form {
@@ -137,8 +138,9 @@ form button {
   font-size: 18px;
   padding: 12px;
   margin: auto;
-  width: 100%;
-  max-width: 250px;
+  width: 30%;
+  min-width: 250px;
+  max-width: 500px;
 }
 
 label,
@@ -149,6 +151,7 @@ textarea {
   display: block;
   padding: 6px 2px;
   width: 97.5%;
+  max-width: 1600px;
 }
 
 input,

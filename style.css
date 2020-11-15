@@ -92,6 +92,13 @@ header p:nth-child(4) {
   color: #222e50;
 }
 
+#projects section a:hover {
+  background-color: #222e50;
+  color: #f2f7f2;
+  border-radius: 5px;
+  padding: 1px;
+}
+
 section {
   background-color: #e9d985;
   border-radius: 10px;
@@ -132,6 +139,7 @@ form {
 }
 
 form button {
+  cursor: pointer;
   border: none;
   border-radius: 10px;
   background-color: #e9d985;

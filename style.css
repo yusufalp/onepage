@@ -179,6 +179,15 @@ textarea {
   text-align: center;
 }
 
+.tech-stack {
+  font-size: 32px;
+}
+
+.tech-img{
+  width: 60px;
+  margin: 0 6px 6px 0;
+}
+
 @media all and (min-width: 286px) {
   nav a {
     display: inline;

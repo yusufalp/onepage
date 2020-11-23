@@ -125,7 +125,7 @@ section h3 {
 }
 
 .tech-img {
-  width: 60px;
+  width: 48px;
   margin: 0 6px 6px 0;
 }
 
@@ -134,7 +134,7 @@ footer .message {
   border-radius: 10px;
   background-color: #e9d985;
   display: inline-block;
-  font-size: 18px;
+  font-size: 12px;
   padding: 12px;
   margin-bottom: 36px;
   max-width: 750px;
@@ -169,7 +169,7 @@ form button {
   padding: 12px;
   margin: auto;
   width: 30%;
-  min-width: 250px;
+  min-width: 225px;
   max-width: 500px;
 }
 
@@ -178,7 +178,7 @@ form button {
 }
 
 #contact h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .social {
@@ -216,6 +216,18 @@ form button {
   header h1 {
     font-size: 48px;
     padding-top: 160px;
+  }
+
+  .tech-img {
+    width: 60px;
+  }
+
+  footer .message {
+    font-size: 18px;
+  }
+
+  #contact h3 {
+    font-size: 24px;
   }
 
   .social a {

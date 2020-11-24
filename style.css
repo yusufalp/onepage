@@ -10,7 +10,7 @@ h2 {
   width: 75%;
 }
 
-article {
+section {
   padding-top: 32px;
 }
 
@@ -71,7 +71,7 @@ header p:nth-child(4) {
 }
 
 /* project section */
-section {
+article {
   background-color: #e9d985;
   border-radius: 10px;
   box-shadow: 5px 5px 15px #9cafb7;
@@ -81,12 +81,12 @@ section {
   max-width: 720px;
 }
 
-section:hover {
+article:hover {
   transform: scale(1.05);
 }
 
-section h2,
-section h3 {
+article h2,
+article h3 {
   font-size: 24px;
 }
 
@@ -94,7 +94,7 @@ section h3 {
   margin-top: 140px;
 }
 
-#projects section img {
+#projects article img {
   display: block;
   height: 36%;
   max-height: 240px;
@@ -104,12 +104,12 @@ section h3 {
   margin-right: auto;
 }
 
-#projects section a {
+#projects article a {
   border-bottom: 2px solid #ed217c;
   color: #222e50;
 }
 
-#projects section a:hover {
+#projects article a:hover {
   background-color: #222e50;
   color: #f2f7f2;
   border-radius: 5px;
@@ -257,7 +257,7 @@ form button {
     font-size: 24px;
   }
 
-  section {
+  article {
     padding: 6px 12px 54px;
   }
 
@@ -265,7 +265,7 @@ form button {
     flex-direction: row;
   }
 
-  .group > section {
+  .group > article {
     flex: 0 40%;
   }
 
@@ -302,16 +302,16 @@ form button {
     font-size: 48px;
   }
 
-  section h2,
-  section h3 {
+  article h2,
+  article h3 {
     font-size: 30px;
   }
 
-  #projects section img {
+  #projects article img {
     height: 50%;
   }
 
-  .group section p,
+  .group article p,
   #about p,
   form label {
     font-size: 24px;

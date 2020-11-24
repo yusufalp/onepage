@@ -106,7 +106,7 @@ article h3 {
 }
 
 #projects {
-  margin-bottom: 140px;
+  margin-top: 140px;
 }
 
 #projects article img {
@@ -190,6 +190,10 @@ form button {
   width: 30%;
   min-width: 220px;
   max-width: 500px;
+}
+
+#contact h2 {
+  font-size: 24px;
 }
 
 #contact h3 {
@@ -283,6 +287,10 @@ form button {
     flex: 0 40%;
   }
 
+  #contact h2 {
+    font-size: 36px;
+  }
+
   label,
   input,
   textarea {
@@ -312,7 +320,8 @@ form button {
   }
 
   h2,
-  h3 {
+  h3,
+  #contact h2 {
     font-size: 48px;
   }
 

@@ -10,6 +10,11 @@ h2 {
   width: 75%;
 }
 
+h2,
+h3 {
+  font-size: 24px;
+}
+
 section {
   padding-top: 32px;
 }
@@ -27,10 +32,6 @@ section {
 
 #contact:hover {
   transform: none;
-}
-
-#contact h2 {
-  font-size: 48px;
 }
 
 /* links */
@@ -98,11 +99,6 @@ article {
 
 article:hover {
   transform: scale(1.05);
-}
-
-article h2,
-article h3 {
-  font-size: 24px;
 }
 
 #projects {
@@ -196,14 +192,6 @@ form button {
   max-width: 500px;
 }
 
-#contact h2 {
-  font-size: 24px;
-}
-
-#contact h3 {
-  font-size: 20px;
-}
-
 .social {
   margin-bottom: 8%;
 }
@@ -227,11 +215,10 @@ form button {
 }
 
 @media all and (min-width: 372px) {
-  nav a {
-    font-size: 18px;
-  }
-
-  header p {
+  nav a,
+  header p,
+  #contact .message,
+  .social a {
     font-size: 18px;
   }
 
@@ -243,16 +230,8 @@ form button {
     width: 60px;
   }
 
-  #contact .message {
-    font-size: 18px;
-  }
-
   #contact h3 {
     font-size: 32px;
-  }
-
-  .social a {
-    font-size: 18px;
   }
 }
 
@@ -266,7 +245,7 @@ form button {
     font-size: 60px;
   }
 
-  h2 {
+  h2{
     font-size: 36px;
     width: 40%;
   }
@@ -285,10 +264,6 @@ form button {
 
   .group > article {
     flex: 0 40%;
-  }
-
-  #contact h2 {
-    font-size: 36px;
   }
 
   .tech-stack {
@@ -323,17 +298,6 @@ form button {
     font-size: 84px;
   }
 
-  h2,
-  h3,
-  #contact h2 {
-    font-size: 48px;
-  }
-
-  article h2,
-  article h3 {
-    font-size: 30px;
-  }
-
   #projects article img {
     height: 50%;
   }
@@ -342,10 +306,6 @@ form button {
   #about p,
   form label {
     font-size: 24px;
-  }
-
-  #contact h3 {
-    font-size: 32px;
   }
 
   .social a {

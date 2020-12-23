@@ -63,7 +63,7 @@ nav {
 }
 
 nav a {
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 12px;
 }
 
@@ -72,12 +72,14 @@ header {
   height: 100vh;
 }
 
-header h1 {
+h1 {
   padding-top: 120px;
   font-family: "Martel", serif;
+  font-size: calc(24px + 2vmin);
 }
 
 header p {
+  font-size: calc(10px + 2vmin);
   margin: 0;
   width: 80%;
 }
@@ -153,7 +155,7 @@ article:hover {
   border-radius: 10px;
   background-color: #e9d985;
   display: inline-block;
-  font-size: 12px;
+  font-size: calc(6px + 2vmin);
   padding: 12px;
   margin-bottom: 36px;
   max-width: 750px;
@@ -197,61 +199,46 @@ form button {
 }
 
 .social a {
-  margin-right: 30px;
+  margin-right: 20px;
+  font-size: calc(10px + 2vmin);
 }
 
 .copy {
   text-align: center;
 }
 
-@media all and (min-width: 251px) {
+@media all and (min-width: 271px) {
   nav a {
-    font-size: 14px;
+    font-size: calc(10px + 2vmin);
   }
 
-  .social a {
-    margin-right: 20px;
+  #contact .message {
+    font-size: calc(10px + 2vmin);
   }
 }
 
 @media all and (min-width: 372px) {
-  nav a,
-  header p,
-  #contact .message,
-  .social a {
-    font-size: 18px;
-  }
-
-  header h1 {
-    font-size: 48px;
-  }
-
   .tech-img {
     width: 60px;
   }
 
   #contact h3 {
-    font-size: 32px;
+    font-size: calc(14px + 2vmin);
   }
 }
 
 @media all and (min-width: 680px) {
   nav a {
-    font-size: 22px;
     margin-left: 22px;
   }
 
   h1 {
-    font-size: 60px;
+    font-size: calc(48px + 2vmin);
   }
 
-  h2{
+  h2 {
     font-size: 36px;
     width: 40%;
-  }
-
-  header p {
-    font-size: 24px;
   }
 
   article {
@@ -286,18 +273,6 @@ form button {
     margin: 0 10%;
   }
 
-  nav a {
-    font-size: 28px;
-  }
-
-  header p {
-    font-size: 30px;
-  }
-
-  h1 {
-    font-size: 84px;
-  }
-
   #projects article img {
     height: 50%;
   }
@@ -306,9 +281,5 @@ form button {
   #about p,
   form label {
     font-size: 24px;
-  }
-
-  .social a {
-    font-size: 32px;
   }
 }

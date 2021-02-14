@@ -146,8 +146,9 @@ article:hover {
 }
 
 .tech-img {
-  width: 36px;
-  margin: auto 3px;
+  width: 18%;
+  max-width: 72px;
+  margin: 6px;
 }
 
 /* footer section */
@@ -218,10 +219,6 @@ form button {
 }
 
 @media all and (min-width: 372px) {
-  .tech-img {
-    width: 60px;
-  }
-
   #contact h3 {
     font-size: calc(14px + 2vmin);
   }

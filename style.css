@@ -226,6 +226,10 @@ form button {
   #contact h3 {
     font-size: calc(14px + 2vmin);
   }
+
+  header p {
+    width: 60%;
+  }
 }
 
 @media all and (min-width: 680px) {

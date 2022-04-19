@@ -41,9 +41,10 @@
       </ul>
       <p>Hi, I'm Yusuf</p>
       <p>A software engineer, based in SF Bay Area.</p>
-      <p>I design and build full-stack applicationswith accessibility and responsiveness in mind.</p>
+      <p>I design and build full-stack applications with accessibility and responsiveness in mind.</p>
     </nav>
   </header>
+
   <main>
     <section id="projects">
       <h2>Projects</h2>
@@ -74,35 +75,28 @@
       <h3>Tech Stack</h3>
     </section>
 
-    <article id="contact">
+    <section id="contact">
       <h2>Contact Me</h2>
-      <p class="message">I'd love to connect with you.</p>
-      <p class="social">
-        <a href="http://www.linkedin.com/in/yusuf-alp" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="http://www.github.com/yusufalp" target="_blank" rel="noopener">GitHub</a>
-        <a href="mailto:alpyusuf007@gmail.com">Email</a>
-      </p>
-      <h3>...or send a message</h3>
       <form action="https://formspree.io/f/xaypjzbq" method="POST">
-        <label>
-          Name
-          <input type="text" name="name">
-        </label>
-        <label>
-          Email
-          <input type="text" name="_replyto">
-        </label>
-        <label>
-          Message
-          <textarea name="message" rows="8"></textarea>
-        </label>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="_replyto">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="8"></textarea>
         <button type="submit">Send</button>
       </form>
-    </article>
-    <footer>
-      <p class="copyrights"></p>
-    </footer>
+    </section>
   </main>
+
+  <footer>
+    <p class="copyrights"></p>
+    <p class="social">
+      <a href="http://www.linkedin.com/in/yusuf-alp" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="http://www.github.com/yusufalp" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:alpyusuf007@gmail.com">Email</a>
+    </p>
+  </footer>
   <script type="module" src="index.js"></script>
 </body>
 

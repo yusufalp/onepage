@@ -48,6 +48,20 @@ nav a:visited {
   color: inherit;
 }
 
+footer {
+  margin-top: 32px;
+  background-color: #e7d7c1;
+}
+
+footer a {
+  margin: 0 12px;
+  text-decoration: none;
+}
+
+footer a img {
+  width: 32px;
+}
+
 @media (max-width: 559px) {
   .nav-links {
     display: none;
@@ -56,6 +70,10 @@ nav a:visited {
   .tech-img {
     width: 40px;
     height: 40px;
+  }
+
+  footer {
+    text-align: center;
   }
 }
 
@@ -66,5 +84,11 @@ nav a:visited {
 
   nav a:hover {
     text-decoration: overline;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

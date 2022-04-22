@@ -15,3 +15,56 @@ body {
 article img {
   width: 240px;
 }
+
+h1 {
+  display: flex;
+}
+
+nav {
+  border-bottom: 1px solid #a78a7f;
+  background-color: #fff;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  font-size: 1.5rem;
+  padding-left: 16px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: inherit;
+}
+
+@media (max-width: 559px) {
+  .nav-links {
+    display: none;
+  }
+
+  .tech-img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 560px) {
+  h1 {
+    align-items: center;
+  }
+
+  nav a:hover {
+    text-decoration: overline;
+  }
+}

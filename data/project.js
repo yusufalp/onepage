@@ -36,7 +36,7 @@ const frontEndProjects = [
     technologies: "jQuery, HTML, CSS, JavaScript, API",
   },
   {
-    title: "Tic Tac Toe (multiple size options)",
+    title: "Tic Tac Toe (multi-size)",
     imgSrc: "images/TicTacToeMB.png",
     imgAlt: "home page of the Tic Tac Toe project",
     clientLink: "",

@@ -53,6 +53,14 @@ nav {
   top: 0;
 }
 
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: inherit;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -62,6 +70,45 @@ nav {
 .nav-links li {
   font-size: 1.5rem;
   padding-left: 16px;
+}
+
+.nav-links li:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+section {
+  margin-bottom: 64px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact form input,
+#contact form textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+#contact form textarea {
+  height: 120px;
+}
+
+#contact form button {
+  border: none;
+  border-radius: 10px;
+  background-color: #49b6ff;
+  font-size: 1.25rem;
+  height: 36px;
+}
+
+#contact form button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.25s;
 }
 
 footer {
@@ -101,6 +148,10 @@ footer a img {
 
   nav a:hover {
     text-decoration: overline;
+  }
+
+  #contact form {
+    width: 50%;
   }
 
   footer {

@@ -1,8 +1,11 @@
 html {
-  scroll-padding-top: 67px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 86px;
 }
 
 body {
+  color: #2e3532;
+  font-family: "Montserrat", sans-serif;
   margin: 0 8px;
 }
 
@@ -40,18 +43,10 @@ nav {
   padding-left: 16px;
 }
 
-nav a {
-  text-decoration: none;
-}
-
-nav a:visited {
-  color: inherit;
-}
-
 footer {
-  margin: 32px -8px 0;
-  background-color: #e9e9e9;
-  padding: 0 8px;
+  margin: 280px -8px 0;
+  background-color: #d2d4c8;
+  padding: 8px;
 }
 
 footer a {

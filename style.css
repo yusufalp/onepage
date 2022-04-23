@@ -15,7 +15,28 @@ body {
   height: 60px;
 }
 
+.personal-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  margin: 12px 0;
+  flex: 1 0 21%;
+}
+
 article img {
+  display: block;
+  width: 240px;
+  height: 160px;
+}
+
+article a {
+  margin-right: 12px;
+  padding-top: 24px;
+}
+
+article p {
   width: 240px;
 }
 

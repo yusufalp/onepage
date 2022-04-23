@@ -22,9 +22,9 @@
 
 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Martel:wght@400;700;900&family=Quicksand:wght@400;700&family=Rozha+One&display=swap">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
   <title>yusuf alp | Software Engineer</title>
 
   <script src="https://kit.fontawesome.com/eeee9b5a6a.js" crossorigin="anonymous"></script>
@@ -81,11 +81,11 @@
       <h2>Contact Me</h2>
       <form action="https://formspree.io/f/xaypjzbq" method="POST">
         <label for="name">Name</label>
-        <input id="name" type="text" name="name">
+        <input id="name" type="text" name="name" required>
         <label for="email">Email</label>
-        <input id="email" type="email" name="_replyto">
+        <input id="email" type="email" name="_replyto" required>
         <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
+        <textarea id="message" name="message" required></textarea>
         <button type="submit">Send</button>
       </form>
     </section>

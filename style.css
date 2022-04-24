@@ -186,6 +186,7 @@ footer a img {
 
   .show-menu {
     transform: translateY(-5%);
+    top: 0;
     height: 100vh;
   }
 

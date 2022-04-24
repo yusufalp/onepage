@@ -9,37 +9,6 @@ body {
   margin: 0 8px;
 }
 
-.tech-img {
-  margin: 0 6px;
-  width: 60px;
-  height: 60px;
-}
-
-.personal-projects {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-article {
-  margin: 12px 0;
-  flex: 1 0 21%;
-}
-
-article img {
-  display: block;
-  width: 240px;
-  height: 160px;
-}
-
-article a {
-  margin-right: 12px;
-  padding-top: 24px;
-}
-
-article p {
-  width: 240px;
-}
-
 h1 {
   display: flex;
 }
@@ -47,9 +16,9 @@ h1 {
 nav {
   border-bottom: 1px solid #a78a7f;
   background-color: #fff;
-  position: sticky;
   display: flex;
   justify-content: space-between;
+  position: sticky;
   top: 0;
 }
 
@@ -72,18 +41,62 @@ nav a:visited {
   padding-left: 16px;
 }
 
-.nav-links li:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s;
+.personal-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 1 0 21%;
+  margin: 12px 6px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+article img {
+  display: block;
+  margin: 0 auto 12px;
+  width: 240px;
+  height: 160px;
+}
+
+article a {
+  border: none;
+  color: inherit;
+  margin: auto 6px;
+}
+
+article p {
+  margin: 12px auto 12px;
+  text-align: left;
+  width: 240px;
+}
+
+article .technologies {
+  font-style: italic;
+  margin-top: 12px;
 }
 
 section {
   margin-bottom: 64px;
 }
 
+#about p {
+  text-align: justify;
+}
+
+.tech-img {
+  margin: 0 6px;
+  width: 60px;
+  height: 60px;
+}
+
 #contact form {
   display: flex;
   flex-direction: column;
+  max-width: 680px;
 }
 
 #contact form input,
@@ -100,7 +113,7 @@ section {
 #contact form button {
   border: none;
   border-radius: 10px;
-  background-color: #49b6ff;
+  background-color: #d2d4c8;
   font-size: 1.25rem;
   height: 36px;
 }
@@ -126,7 +139,7 @@ footer a img {
   width: 24px;
 }
 
-@media (max-width: 559px) {
+@media (max-width: 679px) {
   .nav-links {
     display: none;
   }
@@ -141,17 +154,13 @@ footer a img {
   }
 }
 
-@media (min-width: 560px) {
+@media (min-width: 680px) {
   h1 {
     align-items: center;
   }
 
   nav a:hover {
     text-decoration: overline;
-  }
-
-  #contact form {
-    width: 50%;
   }
 
   footer {

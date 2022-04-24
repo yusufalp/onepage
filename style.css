@@ -15,7 +15,7 @@ h1 {
 
 nav {
   border-bottom: 1px solid #a78a7f;
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -55,7 +55,7 @@ article {
   flex: 1 0 21%;
   margin: 12px 6px;
   text-align: center;
-  border: 1px solid;
+  border: 1px solid #2e3532;
   border-radius: 10px;
   padding: 0 10px;
 }
@@ -155,7 +155,7 @@ footer a img {
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: #2e3532;
+    background-color: #2e3532;
     color: #fff;
     list-style: none;
     padding-top: 4rem;
@@ -174,12 +174,14 @@ footer a img {
     right: 9px;
     padding: 6px;
     border: 1px solid #2e3532;
-    background: white;
+    background-color: #ffffff;
     cursor: pointer;
   }
 
   .close-icon {
     display: none;
+    height: 12px;
+    width: 12px;
   }
 
   .show-menu {

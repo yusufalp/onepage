@@ -23,6 +23,7 @@ nav {
 }
 
 nav a {
+  color: #2e3532;
   text-decoration: none;
 }
 
@@ -39,6 +40,10 @@ nav a:visited {
 .nav-links li {
   font-size: 1.5rem;
   padding-left: 16px;
+}
+
+.hamburger {
+  display: none;
 }
 
 .personal-projects {
@@ -141,12 +146,45 @@ footer a img {
 
 @media (max-width: 679px) {
   .nav-links {
-    display: none;
+    display: block;
+    position: fixed;
+    transform: translateY(-102%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #2e3532;
+    color: #fff;
+    list-style: none;
+    padding-top: 4rem;
   }
 
   .tech-img {
     width: 40px;
     height: 40px;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    top: 20px;
+    right: 9px;
+    padding: 6px;
+    border: 1px solid #2e3532;
+    background: white;
+    cursor: pointer;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .show-menu {
+    transform: translateY(-2%);
+    height: 100vh;
   }
 
   footer {

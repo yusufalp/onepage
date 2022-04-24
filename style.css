@@ -148,7 +148,7 @@ footer a img {
   .nav-links {
     display: block;
     position: fixed;
-    transform: translateY(-102%);
+    transform: translateY(-105%);
     transition: transform 0.2s;
     top: 0;
     left: 0;
@@ -185,7 +185,7 @@ footer a img {
   }
 
   .show-menu {
-    transform: translateY(-2%);
+    transform: translateY(-5%);
     height: 100vh;
   }
 

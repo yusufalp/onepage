@@ -31,6 +31,7 @@ for (let project of fullStackProjects) {
   const projectDescription = document.createElement("p");
   projectDescription.textContent = project.description;
   const projectTechnologies = document.createElement("p");
+  projectTechnologies.classList.add("technologies");
   projectTechnologies.textContent = `Technologies: ${project.technologies}`;
   article.appendChild(projectTitle);
   article.appendChild(projectImg);
@@ -59,6 +60,7 @@ for (let project of frontEndProjects) {
   projectDescription.textContent = project.description;
   const projectTechnologies = document.createElement("p");
   projectTechnologies.textContent = `Technologies: ${project.technologies}`;
+  projectTechnologies.classList.add("technologies");
   article.appendChild(projectTitle);
   article.appendChild(projectImg);
   article.appendChild(projectGitHubLink);
@@ -68,7 +70,7 @@ for (let project of frontEndProjects) {
   projects.appendChild(article);
 }
 
-const about = document.querySelector("#about");
+const about = document.querySelector(".tech-stack");
 
 for (let tech of techStackList) {
   const techImg = document.createElement("img");

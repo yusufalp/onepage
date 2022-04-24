@@ -70,7 +70,7 @@ for (let project of frontEndProjects) {
   projects.appendChild(article);
 }
 
-const about = document.querySelector(".tech-stack");
+const about = document.querySelector("#about");
 
 for (let tech of techStackList) {
   const techImg = document.createElement("img");

@@ -190,6 +190,10 @@ footer a img {
     height: 100vh;
   }
 
+  .show-menu nav a {
+    color: #ffffff;
+  }
+
   footer {
     text-align: center;
   }

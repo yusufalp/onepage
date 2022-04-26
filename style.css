@@ -14,7 +14,7 @@ h1 {
 }
 
 nav {
-  border-bottom: 1px solid #a78a7f;
+  border-bottom: 1px solid #d2d4c8;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -55,7 +55,7 @@ article {
   flex: 1 0 21%;
   margin: 12px 6px;
   text-align: center;
-  border: 1px solid #2e3532;
+  border: 2px solid #d2d4c8;
   border-radius: 10px;
   padding: 0 10px;
 }
@@ -98,9 +98,9 @@ section {
 }
 
 .tech-list {
-  border: 3px solid #d2d4c8;
+  border: 2px solid #d2d4c8;
   border-radius: 6px;
-  margin: 6px;
+  margin: 6px 6px 6px 0;
   padding: 6px;
 }
 
@@ -127,6 +127,8 @@ section {
 
 #contact form input,
 #contact form textarea {
+  border: 2px solid #d2d4c8;
+  border-radius: 6px;
   font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   margin-bottom: 12px;
@@ -138,7 +140,7 @@ section {
 
 #contact form button {
   border: none;
-  border-radius: 10px;
+  border-radius: 6px;
   background-color: #d2d4c8;
   font-size: 1.25rem;
   height: 36px;
@@ -196,6 +198,7 @@ footer a img {
     padding: 6px;
     border: 1px solid #2e3532;
     background-color: #ffffff;
+    color: #2e3532;
     cursor: pointer;
   }
 

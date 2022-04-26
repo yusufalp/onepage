@@ -92,6 +92,17 @@ section {
   text-align: justify;
 }
 
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-list {
+  border: 3px solid #d2d4c8;
+  margin: 6px;
+  padding: 6px;
+}
+
 .tech-img {
   margin: 0 6px;
   width: 60px;

@@ -70,14 +70,23 @@ for (let project of frontEndProjects) {
   projects.appendChild(article);
 }
 
-const about = document.querySelector("#about");
+// const about = document.querySelector("#about");
+
+// for (let tech of techStackList) {
+//   const techImg = document.createElement("img");
+//   techImg.classList.add("tech-img")
+//   techImg.setAttribute("src", tech.imgSrc);
+//   techImg.setAttribute("alt", tech.imgAlt);
+//   about.appendChild(techImg);
+// }
+
+const technologies = document.querySelector(".tech");
 
 for (let tech of techStackList) {
-  const techImg = document.createElement("img");
-  techImg.classList.add("tech-img")
-  techImg.setAttribute("src", tech.imgSrc);
-  techImg.setAttribute("alt", tech.imgAlt);
-  about.appendChild(techImg);
+  const techList = document.createElement("span");
+  techList.classList.add("tech-list")
+  techList.textContent = tech.title;
+  technologies.appendChild(techList);
 }
 
 const menu = document.querySelector(".nav-links");

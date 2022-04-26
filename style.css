@@ -99,6 +99,7 @@ section {
 
 .tech-list {
   border: 3px solid #d2d4c8;
+  border-radius: 6px;
   margin: 6px;
   padding: 6px;
 }
@@ -107,6 +108,15 @@ section {
   margin: 0 6px;
   width: 60px;
   height: 60px;
+}
+
+#contact h2 {
+  margin-bottom: 0;
+}
+
+#contact p {
+  font-size: 12px;
+  margin: 0 0 27px;
 }
 
 #contact form {
@@ -141,7 +151,7 @@ section {
 }
 
 footer {
-  margin: 280px -8px 0;
+  margin: 256px -8px 0;
   background-color: #d2d4c8;
   padding: 8px;
 }

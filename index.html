@@ -31,56 +31,59 @@
 </head>
 
 <body>
-  <nav>
+  <header>
     <h1>Yusuf Alp</h1>
-    <ul class="nav-links">
-      <li><a class="nav-links-item" href="#home">home</a></li>
-      <li><a class="nav-links-item" href="#projects">projects</a></li>
-      <li><a class="nav-links-item" href="#about">about</a></li>
-      <li><a class="nav-links-item" href="#contact">contact</a></li>
-      <li><a class="nav-links-item" href="public/Resume_Yusuf_Alp.pdf" target="_blank">resume</a></li>
-    </ul>
-    <button class="hamburger">
-      <!-- material icons https://material.io/resources/icons/ -->
-      <i class="menu-icon fa-solid fa-bars"></i>
-      <img class="close-icon" src="https://cdn3.iconfinder.com/data/icons/pyconic-icons-1-2/512/close-512.png" />
-    </button>
-  </nav>
-  <header id="home">
-    <p>Hi, I'm Yusuf</p>
-    <p>A software engineer, based in SF Bay Area.</p>
-    <p>I design and build full-stack applications with accessibility and responsiveness in mind.</p>
+    <nav>
+      <ul class="nav-links">
+        <li><a class="nav-links-item" href="#home">home</a></li>
+        <li><a class="nav-links-item" href="#projects">projects</a></li>
+        <li><a class="nav-links-item" href="#contact">contact</a></li>
+        <li><a href="http://www.linkedin.com/in/yusuf-alp" target="_blank" rel="noopener">
+            <img src="images/linkedin.png" alt="LinkedIn"></a>
+        </li>
+        <li><a href="http://www.github.com/yusufalp" target="_blank" rel="noopener">
+            <img src="images/github.png" alt="LinkedIn"></a>
+        </li>
+        <li><a href="https://twitter.com/yalp122" target="_blank" rel="noopener">
+            <img src="images/twitter.png" alt="LinkedIn"></a>
+        </li>
+        <li><a href="mailto:alpyusuf007@gmail.com">
+            <img src="images/gmail.png" alt="LinkedIn"></a>
+        </li>
+      </ul>
+      <button class="hamburger">
+        <i class="fa-solid fa-bars menu-icon"></i>
+        <i class="fa-solid fa-xmark close-icon"></i>
+      </button>
+    </nav>
   </header>
 
   <main>
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="personal-projects">
-
-      </div>
+    <section id="home">
+      <p>Hi, my name is Yusuf</p>
+      <p>A software engineer, based in SF Bay Area.</p>
     </section>
 
     <section id="about">
       <h2>About</h2>
       <p>
-        Building high-quality software with accessibility and responsiveness in mind.
-        I take a solution-focused approach and bring values to the products by solving
-        some of the most complex problems. It is critical to identify core challenges and
-        break them into smaller digestible tasks.
+        I design and build full-stack applications with accessibility and responsiveness in mind.
+        Taking solution-focused approach and bringing values to the products by solving
+        some of the most complex problems.
       </p>
       <p>
-        As a software engineer, it is important to not only be able to solve a problem,
-        but also know what questions to ask, how a problem fits into a users’ broader plan,
-        and what is most important to them.Highly skilled in front-end development with
-        advanced knowledge in React and JavaScript. Back-end skills include Node, Express,
-        RESTful API, and PostgreSQL.
-      </p>
-      <p>
-        An experienced engineer, educator, leader, math enthusiast, and puzzle solver.
+        Also an educator, leader, math enthusiast, and puzzle solver.
         Fluent in Turkish.
       </p>
       <h3>Technologies</h3>
       <div class="tech"></div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="personal-projects">
+
+      </div>
     </section>
 
     <section id="contact">
@@ -100,21 +103,8 @@
 
   <footer>
     <p class="copyrights"></p>
-    <p>
-      <a href="http://www.linkedin.com/in/yusuf-alp" target="_blank" rel="noopener">
-        <img src="images/linkedin.png" alt="LinkedIn">
-      </a>
-      <a href="http://www.github.com/yusufalp" target="_blank" rel="noopener">
-        <img src="images/github.png" alt="LinkedIn">
-      </a>
-      <a href="https://twitter.com/yalp122" target="_blank" rel="noopener">
-        <img src="images/twitter.png" alt="LinkedIn">
-      </a>
-      <a href="mailto:alpyusuf007@gmail.com">
-        <img src="images/gmail.png" alt="LinkedIn">
-      </a>
-    </p>
   </footer>
+
   <script type="module" src="index.js"></script>
 </body>
 

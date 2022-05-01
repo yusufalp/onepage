@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 86px;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -9,11 +9,7 @@ body {
   margin: 0 8px;
 }
 
-h1 {
-  display: flex;
-}
-
-nav {
+header {
   border-bottom: 1px solid #d2d4c8;
   background-color: #ffffff;
   display: flex;
@@ -22,9 +18,18 @@ nav {
   top: 0;
 }
 
+nav {
+  display: flex;
+}
+
 nav a {
   color: #2e3532;
   text-decoration: none;
+}
+
+nav a img {
+  padding-top: 6px;
+  width: 24px;
 }
 
 nav a:visited {
@@ -39,7 +44,11 @@ nav a:visited {
 
 .nav-links li {
   font-size: 1.5rem;
-  padding-left: 16px;
+  padding-left: 12px;
+}
+
+.nav-links li:nth-child(3) {
+  padding-right: 24px;
 }
 
 .hamburger {
@@ -136,6 +145,7 @@ section {
 
 #contact form textarea {
   height: 120px;
+  resize: none;
 }
 
 #contact form button {
@@ -156,15 +166,7 @@ footer {
   margin: 256px -8px 0;
   background-color: #d2d4c8;
   padding: 8px;
-}
-
-footer a {
-  margin: 0 12px;
-  text-decoration: none;
-}
-
-footer a img {
-  width: 24px;
+  text-align: center;
 }
 
 @media (max-width: 679px) {
@@ -178,15 +180,23 @@ footer a img {
     right: 0;
     bottom: 0;
     z-index: 99;
-    background-color: #2e3532;
-    color: #fff;
+    background-color: #d2d4c8;
     list-style: none;
     padding-top: 4rem;
+  }
+
+  .nav-links li:nth-child(n + 4) {
+    display: inline;
   }
 
   .tech-img {
     width: 40px;
     height: 40px;
+  }
+
+  .show-menu {
+    transform: translateY(-5%);
+    height: 100vh;
   }
 
   .hamburger {
@@ -207,20 +217,6 @@ footer a img {
     height: 12px;
     width: 12px;
   }
-
-  .show-menu {
-    transform: translateY(-5%);
-    top: 0;
-    height: 100vh;
-  }
-
-  .show-menu nav a {
-    color: #ffffff;
-  }
-
-  footer {
-    text-align: center;
-  }
 }
 
 @media (min-width: 680px) {
@@ -230,11 +226,5 @@ footer a img {
 
   nav a:hover {
     text-decoration: overline;
-  }
-
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 }

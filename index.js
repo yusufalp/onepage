@@ -21,12 +21,15 @@ for (let project of fullStackProjects) {
   projectImg.setAttribute("alt", project.imgAlt);
   const projectClientLink = document.createElement("a");
   projectClientLink.setAttribute("href", project.clientLink);
+  projectClientLink.setAttribute("target", "_blank")
   projectClientLink.textContent = "Front-End";
   const projectServerLink = document.createElement("a");
   projectServerLink.setAttribute("href", project.serverLink);
+  projectServerLink.setAttribute("target", "_blank")
   projectServerLink.textContent = "Back-End";
   const projectLiveLink = document.createElement("a");
   projectLiveLink.setAttribute("href", project.liveLink);
+  projectLiveLink.setAttribute("target", "_blank")
   projectLiveLink.textContent = "Live";
   const projectDescription = document.createElement("p");
   projectDescription.textContent = project.description;
@@ -52,9 +55,11 @@ for (let project of frontEndProjects) {
   projectImg.setAttribute("alt", project.imgAlt);
   const projectGitHubLink = document.createElement("a");
   projectGitHubLink.setAttribute("href", project.githubLink);
+  projectGitHubLink.setAttribute("target", "_blank")
   projectGitHubLink.textContent = "GitHub";
   const projectLiveLink = document.createElement("a");
   projectLiveLink.setAttribute("href", project.liveLink);
+  projectLiveLink.setAttribute("target", "_blank")
   projectLiveLink.textContent = "Live";
   const projectDescription = document.createElement("p");
   projectDescription.textContent = project.description;

@@ -58,15 +58,17 @@ nav a:visited {
 .personal-projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 article {
-  flex: 1 0 21%;
+  flex: 1 0 30%;
   margin: 12px 6px;
   text-align: center;
   border: 2px solid #d2d4c8;
   border-radius: 10px;
   padding: 0 10px;
+  max-width: 360px;
 }
 
 article img {

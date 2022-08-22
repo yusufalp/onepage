@@ -31,76 +31,116 @@
 
 <body>
   <header>
-    <h1>Yusuf Alp</h1>
     <nav>
       <ul class="nav-links">
-        <li><a class="nav-links-item" href="#home">home</a></li>
-        <li><a class="nav-links-item" href="#projects">projects</a></li>
-        <li><a class="nav-links-item" href="#contact">contact</a></li>
-        <li><a href="http://www.linkedin.com/in/yusuf-alp" target="_blank" rel="noopener">
-            <img src="images/linkedin.png" alt="LinkedIn"></a>
-        </li>
-        <li><a href="http://www.github.com/yusufalp" target="_blank" rel="noopener">
-            <img src="images/github.png" alt="LinkedIn"></a>
-        </li>
-        <li><a href="https://twitter.com/yalp122" target="_blank" rel="noopener">
-            <img src="images/twitter.png" alt="LinkedIn"></a>
-        </li>
-        <li><a href="mailto:alpyusuf007@gmail.com">
-            <img src="images/gmail.png" alt="LinkedIn"></a>
-        </li>
+        <li><a class="nav-links-item" href="#about">About</a></li>
+        <li><a class="nav-links-item" href="#projects">Projects</a></li>
+        <li><a class="nav-links-item" href="#contact">Contact</a></li>
       </ul>
-      <button class="hamburger">
+
+      <!-- <button class="hamburger">
         <i class="fa-solid fa-bars menu-icon"></i>
         <i class="fa-solid fa-xmark close-icon"></i>
-      </button>
+      </button> -->
     </nav>
+
+    <div class="header-area">
+      <div class="header-text">
+        <h1>Yusuf Alp</h1>
+        <p>Full-Stack Software Engineer</p>
+      </div>
+      <div class="socials">
+        <a href="http://www.linkedin.com/in/yusuf-alp" target="_blank" rel="noopener">
+          <img src="images/linkedin.png" alt="LinkedIn"></a>
+        <a href="http://www.github.com/yusufalp" target="_blank" rel="noopener">
+          <img src="images/github.png" alt="GitHub"></a>
+        <a href="https://twitter.com/yalp122" target="_blank" rel="noopener">
+          <img src="images/twitter.png" alt="Twitter"></a>
+        <a href="https://dev.to/yusufalp" target="_blank">
+          <img src="images/devto.svg" alt="Dev"></a>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section id="home">
-      <p>Hi, my name is Yusuf</p>
-      <p>A software engineer, based in SF Bay Area.</p>
-    </section>
-
-    <section id="about">
-      <h2>About</h2>
+  <h2>About</h2>
+  <section id="about">
+    <div>
       <p>
         I design and build full-stack applications with accessibility and responsiveness in mind.
         Taking solution-focused approach and bringing values to the products by solving
         some of the most complex problems.
       </p>
-      <p>
-        Also an educator, leader, math enthusiast, and puzzle solver.
-        Fluent in Turkish.
-      </p>
-      <h3>Technologies</h3>
-      <div class="tech"></div>
-    </section>
+    </div>
+    <div>
+      <img class="profile-pic" src="images/ProfilePic.png" alt="">
+    </div>
+  </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="personal-projects">
+  <h2>Projects</h2>
+  <section id="projects">
+    <article>
+      <h3>Solve The Wordle</h3>
+      <img src="images/SolveTheWordleHome.png" alt="home page of the Solve The Wordle project">
+      <a href="https://github.com/yusufalp/SolveTheWordle" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://solvethewordle.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+      <p>If you are also a puzzle lover like myself and you play Wordle everyday, this is for you. Helpful tool to solve
+        your daily wordle.</p>
+      <p><em>Technolgies:</em> React, React Hooks, CSS, JavaScript</p>
+    </article>
+    <article>
+      <h3>GleamSIS</h3>
+      <img src="images/gleamsis.png" alt="home page of the GleamSIS project">
+      <a href="https://github.com/yusufalp/gleamsis-client" target="_blank" rel="noopener noreferrer">Front-End</a>
+      <a href="https://github.com/yusufalp/gleamsis-API" target="_blank" rel="noopener noreferrer">Back-End</a>
+      <a href="https://gleamsis.vercel.app" target="_blank" rel="noopener noreferrer">Live</a>
+      <p>A full-stack web application built as a student information system, developed in React, Node, Express, and
+        PostgreSQL. Easy to store, maintain, and access data for a school system.</p>
+      <p><em>Technolgies:</em> React, Node, Express, PostgreSQL, CSS</p>
+    </article>
+    <article>
+      <h3>Tic Tac Toe (multi-size)</h3>
+      <img src="images/TicTacToeMB.png" alt="home page of the Tic Tac Toe project">
+      <a href="https://github.com/yusufalp/tic-tac-toe" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://tic-tac-toe-two-omega.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
+      <p>A tic-tac-toe game with a twist. You can choose different board size up to 20x20. Used an algorithm to find the
+        winner no matter what the size is (and can be used for even larger board sizes).</p>
+      <p><em>Technolgies:</em> React, React Hooks, CSS, JavaScript</p>
+    </article>
+    <article>
+      <h3>Sign up Page w/ Errors</h3>
+      <img src="images/LoginPage.png" alt="home page of the Sign up Page w/ Errors project">
+      <a href="https://github.com/yusufalp/intro-component-with-signup-form-master" target="_blank"
+        rel="noopener noreferrer">GitHub</a>
+      <a href="https://yusufalp.github.io/intro-component-with-signup-form-master/" target="_blank"
+        rel="noopener noreferrer">Live</a>
+      <p>Developed a sign up page that is designed to display custom errors when required information is not entered or
+        entered in the correct format. The error will disappear when the correct information is entered. It was fun to
+        make this feature.</p>
+      <p><em>Technolgies:</em> jQuery, HTML, CSS, JavaScript</p>
+    </article>
+    <article>
+      <h3>T-400</h3>
+      <img src="images/t-400.png" alt="home page of the T-400 project">
+      <a href="https://github.com/yusufalp/t-400" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://t-400.vercel.app/" target="_blank" rel="noopener noreferrer">Live</a>
+      <p>A trivia game. Wrong answers grouped together with the correct answer singled out. Used an algorithm to shuffle
+        the position of the correct answer for each question.</p>
+      <p><em>Technolgies:</em> React, React Hooks, CSS, JavaScript</p>
+    </article>
+    <article>
+      <h3>FIFA World Cup Quiz</h3>
+      <img src="images/WorldCupQuiz.png" alt="home page of the FIFA World Cup Quiz project">
+      <a href="https://github.com/yusufalp/World-Cup-Quiz-App" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://yusufalp.github.io/World-Cup-Quiz-App/" target="_blank" rel="noopener noreferrer">Live</a>
+      <p>Developed a quiz app using jQuery traversing and manipulation. This project asks questions about the FIFA World
+        Cup and your results are displayed at the end.</p>
+      <p><em>Technolgies:</em> jQuery, HTML, CSS, JavaScript</p>
+    </article>
+  </section>
 
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>* Required</p>
-      <form action="https://formspree.io/f/xaypjzbq" method="POST">
-        <label for="name">Name*</label>
-        <input id="name" type="text" name="name" required>
-        <label for="email">Email*</label>
-        <input id="email" type="email" name="_replyto" required>
-        <label for="message">Message*</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p><a href="mailto:alpyusuf007@gmail.com">alpyusuf007@gmail.com</a></p>
     <p class="copyrights"></p>
   </footer>
 

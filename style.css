@@ -42,7 +42,9 @@ nav {
 
 ul {
 	display: flex;
-	justify-content: space-between;
+	font-size: 18px;
+	justify-content: space-around;
+	align-items: center;
 	flex-wrap: wrap;
 	list-style-type: none;
 	width: 500px;
@@ -140,11 +142,18 @@ footer {
 	margin: 25vh 0 0;
 	padding-top: 24px;
 }
+
 footer h2,
 footer p,
 footer a {
 	color: #ffffff;
 	text-align: center;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #ffffff;
+	text-decoration: underline;
 }
 
 .copyrights {
@@ -153,7 +162,11 @@ footer a {
 	text-align: center;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 601px) {
+	ul {
+		font-size: 32px;
+	}
+
 	.profile-pic {
 		display: block;
 		border-radius: 90px;

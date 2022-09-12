@@ -27,6 +27,7 @@ h1 {
 
 h2 {
 	text-align: center;
+	margin-top: 120px;
 }
 
 img {
@@ -110,9 +111,13 @@ li a:hover {
 	font-size: 24px;
 }
 
+#about div:first-child {
+	display: flex;
+	align-items: center;
+}
+
 #about p {
 	font-size: 18px;
-	margin: 24px;
 	text-align: center;
 }
 
@@ -135,7 +140,7 @@ li a:hover {
 
 #projects {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -204,9 +209,11 @@ footer a:hover {
 	.header-text {
 		margin-top: 0;
 	}
+
 	.socials {
 		flex-direction: column;
 	}
+
 	.socials a {
 		margin: 0;
 	}
@@ -214,5 +221,21 @@ footer a:hover {
 	#about p {
 		text-align: initial;
 		margin-right: 80px;
+	}
+
+	#technologies {
+		justify-content: flex-start;
+	}
+}
+
+@media all and (max-height: 450px) {
+	.header-area {
+		margin-top: 55px;
+	}
+}
+
+@media all and (max-height: 520px) {
+	h2:first-of-type {
+		margin-top: 175px;
 	}
 }

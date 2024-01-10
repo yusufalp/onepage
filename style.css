@@ -13,7 +13,8 @@ body {
 #about,
 #technologies,
 #projects {
-  margin: 0;
+  margin: 0 auto;
+  width: 90%;
 }
 
 header {
@@ -104,19 +105,19 @@ li a:hover {
   margin-bottom: 100px;
 }
 
-#about {
+/* #about {
   display: flex;
   justify-content: space-between;
   font-size: 24px;
-}
+} */
 
-#about div:first-child {
+/* #about div:first-child {
   display: flex;
   align-items: center;
-}
+} */
 
 #about p {
-  font-size: 18px;
+  /* font-size: 18px; */
   text-align: center;
 }
 
@@ -180,7 +181,7 @@ footer a:hover {
   text-align: center;
 }
 
-@media all and (min-width: 601px) {
+@media all and (min-width: 798px) {
   ul {
     font-size: 32px;
     width: 720px;
@@ -198,7 +199,8 @@ footer a:hover {
   #about,
   #technologies,
   #projects {
-    margin: 0 80px;
+    margin: auto;
+    width: 60%;
   }
 
   .header-area {
@@ -218,14 +220,10 @@ footer a:hover {
     margin: 0;
   }
 
-  #about p {
+  /* #about p {
     text-align: initial;
     margin-right: 80px;
-  }
-
-  #technologies {
-    justify-content: flex-start;
-  }
+  } */
 }
 
 @media all and (max-height: 450px) {

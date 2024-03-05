@@ -181,10 +181,18 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.copyrights {
+footer h2 {
+  margin: 0;
+}
+
+footer section {
   margin: 80px 0 0;
   color: #ffffff;
   text-align: center;
+}
+
+footer section p {
+  margin: 0;
 }
 
 @media all and (min-width: 798px) {

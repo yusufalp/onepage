@@ -4,5 +4,5 @@ const currentYear = today.getFullYear();
 
 const footerTCopyrights = document.querySelector(".copyrights");
 
-const copyrights = `Copyrights @ Yusuf Alp ${currentYear}`;
+const copyrights = `2020 - ${currentYear}`;
 footerTCopyrights.textContent = copyrights;

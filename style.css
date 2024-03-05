@@ -140,8 +140,13 @@ li a:hover {
 
 #projects {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+#projects section {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #projects article {
@@ -152,7 +157,8 @@ li a:hover {
   padding: 6px;
 }
 
-#projects article h3 {
+#projects article h3,
+#projects h3 {
   text-align: center;
 }
 
@@ -219,11 +225,6 @@ footer a:hover {
   .socials a {
     margin: 0;
   }
-
-  /* #about p {
-    text-align: initial;
-    margin-right: 80px;
-  } */
 }
 
 @media all and (max-height: 450px) {

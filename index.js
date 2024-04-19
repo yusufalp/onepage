@@ -2,7 +2,7 @@
 const today = new Date();
 const currentYear = today.getFullYear();
 
-const footerTCopyrights = document.querySelector(".copyrights");
+const footerYearRange = document.querySelector(".year-range");
 
-const copyrights = `2020 - ${currentYear}`;
-footerTCopyrights.textContent = copyrights;
+const yearRangeText = `2020 - ${currentYear}`;
+footerYearRange.textContent = yearRangeText;
